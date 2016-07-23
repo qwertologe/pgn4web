@@ -1,0 +1,61 @@
+.boardTable {
+  border-style: solid;
+  border-color: #663300;
+  border-width: 4px;
+  box-shadow: 0px 0px 20px #663300;
+}
+
+.whiteSquare,
+.blackSquare,
+.highlightWhiteSquare,
+.highlightBlackSquare {
+  vertical-align: middle;
+  border-style: solid;
+}
+
+.whiteSquare,
+.highlightWhiteSquare {
+  border-color: #FFCC99;
+  background: #FFCC99;
+}
+
+.blackSquare,
+.highlightBlackSquare {
+  border-color: #CC9966;
+  background: #CC9966;
+}
+
+.highlightWhiteSquare,
+.highlightBlackSquare {
+  border-color: #663300;
+}
+
+.moveOn {
+  background: #FFFF00;
+}
+.move, .variation, .commentMove, .comment {
+  color: black;
+}
+
+.selectControl {
+  width: 100% !important;
+}
+.buttonControlSpace, {
+  width:3px !important;
+}
+.buttonControl, .buttonControlPlay, .buttonControlStop {
+  height: 3em !important;
+}
+select#GameSelSelect {
+  width:auto !important;
+}
+
+div fieldset.pgn4web { width:100%; border:0 !important; padding:0 !important; margin:0; !important; margin-bottom:2ex !important;}
+div ul.pgn4web { margin: 0 !important; }
+li.pgn4web { color:black; list-style: none; padding: 0; margin: 0; text-align: left; }
+label.pgn4web { display: inline-block; font-weight: bold; line-height: 1.5; vertical-align: top; color:black; }
+@import url("pgn4web/fonts/pgn4web-font-ChessSansAlpha.css");
+@import url("pgn4web/fonts/pgn4web-font-ChessSansMerida.css");
+@import url("pgn4web/fonts/pgn4web-font-ChessSansPiratf.css");
+@import url("pgn4web/fonts/pgn4web-font-ChessSansUscf.css");
+@import url("pgn4web/fonts/pgn4web-font-ChessSansUsual.css");

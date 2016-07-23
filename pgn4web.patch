@@ -1,0 +1,29 @@
+--- pgn4web/pgn4web.js	2016-04-01 09:26:08.000000000 +0200
++++ /tmp/pgn4web.js	2016-07-18 17:55:12.511349916 +0200
+@@ -3346,7 +3346,7 @@
+     text += '"; CLASS="buttonControl" TITLE="go to game start" ID="btnGoToStart" onClick="clickedBbtn(this,event);" ONFOCUS="this.blur();"></TD><TD CLASS="buttonControlSpace" WIDTH="' + spaceSize + '"></TD><TD><INPUT ID="backButton" TYPE="BUTTON" VALUE="&lt;" STYLE="';
+     if (buttonSize > 0) { text += 'width: ' + buttonSize + 'px;'; }
+     text += '"; CLASS="buttonControl" TITLE="move backward" ID="btnMoveBackward1" onClick="clickedBbtn(this,event);" ONFOCUS="this.blur();"></TD><TD CLASS="buttonControlSpace" WIDTH="' + spaceSize + '"></TD><TD>';
+-    text += '<INPUT ID="autoplayButton" TYPE="BUTTON" VALUE=' + (isAutoPlayOn ? "=" : "+") + ' STYLE="';
++    text += '<INPUT ID="autoplayButton" TYPE="BUTTON" VALUE=' + (isAutoPlayOn ? "=" : "\u2192") + ' STYLE="';
+     if (buttonSize > 0) { text += 'width: ' + buttonSize + 'px;'; }
+     text += isAutoPlayOn ? '"; CLASS="buttonControlStop" TITLE="toggle autoplay (stop)" ' : '"; CLASS="buttonControlPlay" TITLE="toggle autoplay (start)" ';
+     text += ' ID="btnPlay" NAME="AutoPlay" onClick="clickedBbtn(this,event);" ONFOCUS="this.blur();"></TD><TD CLASS="buttonControlSpace" WIDTH="' + spaceSize + '"></TD><TD><INPUT ID="forwardButton" TYPE="BUTTON" VALUE="&gt;" STYLE="';
+@@ -3688,7 +3688,7 @@
+   if (isAutoPlayOn) {
+     if (document.GameButtonsForm) {
+       if (document.GameButtonsForm.AutoPlay) {
+-        document.GameButtonsForm.AutoPlay.value = "=";
++        document.GameButtonsForm.AutoPlay.value = "||";
+         document.GameButtonsForm.AutoPlay.title = "toggle autoplay (stop)";
+         document.GameButtonsForm.AutoPlay.className = "buttonControlStop";
+       }
+@@ -3701,7 +3701,7 @@
+   } else {
+     if (document.GameButtonsForm) {
+       if (document.GameButtonsForm.AutoPlay) {
+-        document.GameButtonsForm.AutoPlay.value = "+";
++        document.GameButtonsForm.AutoPlay.value = "\u2192";
+         document.GameButtonsForm.AutoPlay.title = "toggle autoplay (start)";
+         document.GameButtonsForm.AutoPlay.className = "buttonControlPlay";
+       }
