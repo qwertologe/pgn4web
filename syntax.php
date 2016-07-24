@@ -5,7 +5,7 @@
  * @name       pgn4web Plugin
  * @license    GPL 3 (http://www.gnu.org/licenses/gpl.html)
  * @author     Michael Arlt <michael.arlt@sk-schwanstetten.de>
- * @version    2016-06-28
+ * @version    2016-07-24
  *
  * pgn4web.js changes: "=" -> "||" ; "+" -> "\u2192"
  *
@@ -49,7 +49,7 @@ class syntax_plugin_pgn4web extends DokuWiki_Syntax_Plugin {
         return array(
             'author' => 'Michael Arlt',
             'email'  => 'michael.arlt@sk-schwanstetten.de',
-            'date'   => '2014-11-25',
+            'date'   => '2016-07-24',
             'name'   => 'pgn4web Plugin',
             'desc'   => $this->getLang('desc') ,
             'license'=> 'GPL v3 (http://www.gnu.org/licenses/gpl.html)',
