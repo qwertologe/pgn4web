@@ -45,7 +45,7 @@ find pgn4web/ -type f -name "*.png" | xargs pngquant --ext .png --force --skip-i
 The embedded items remain subject to their original licenses (if any).
 Details are documented in pgn4web/README.txt
 
-The used [jin piece sets](http://ixian.com/chess/jin-piece-sets/) has a
+The used [jin piece sets](http://ixian.com/chess/jin-piece-sets/) have a
 changed license these days:
 [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) - in pgn4web is still version 3.0 mentioned.
 
