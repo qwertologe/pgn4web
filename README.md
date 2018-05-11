@@ -2,7 +2,7 @@
 
 pgn4web (a DokuWiki plugin) displays the nice interactive pgnviewer from http://pgn4web.casaschi.net
 
-Demo of the plugin: http://sk-schwanstetten.de/dw/doku.php?id=schachpartien:perlen_der_schachwelt_mit_kommentaren
+Demo of the plugin: http://wir-gestalten-die-welt.de/dokuwiki/plugins#pgn4web
 
 ## DESCRIPTION
 
