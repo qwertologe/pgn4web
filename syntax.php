@@ -5,7 +5,7 @@
  * @name       pgn4web Plugin
  * @license    GPL 3 (http://www.gnu.org/licenses/gpl.html)
  * @author     Michael Arlt <michael.arlt@sk-schwanstetten.de>
- * @version    2016-07-24
+ * @version    2018-05-12
  *
  * pgn4web.js changes: "=" -> "||" ; "+" -> "\u2192"
  *
