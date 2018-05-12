@@ -50,7 +50,7 @@ select#GameSelSelect {
   width:auto !important;
 }
 
-div fieldset.pgn4web { width:100%; border:0 !important; padding:0 !important; margin:0; !important; margin-bottom:2ex !important;}
+div fieldset.pgn4web { width:100%; border:0 !important; padding:0 !important; margin:0 !important; margin-bottom:2ex !important;}
 div ul.pgn4web { margin: 0 !important; }
 li.pgn4web { color:black; list-style: none; padding: 0; margin: 0; text-align: left; }
 label.pgn4web { display: inline-block; font-weight: bold; line-height: 1.5; vertical-align: top; color:black; }
